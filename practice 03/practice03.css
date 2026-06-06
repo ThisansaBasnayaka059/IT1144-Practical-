@@ -1,0 +1,111 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:10px 50px;
+background-color:darkblue;
+align-items:center;
+}
+
+ul{
+	display:flex;
+	list-style:none;
+	margin:0;
+	padding:0;
+	gap:30px;
+}
+ul li a {
+	text-decoration:none;
+	color:black;
+	font-family:sans-serif;
+	font-size:15px;
+	font-weight:500;
+}
+
+ul li a:hover{
+	color:red;
+}
+button{
+	background-color:#f0f0f0;
+	cursor:pointer;
+	margin-left:5px;
+}
+button:hover{
+background-color:#e0e0e0;
+}
+.hero-section{
+	background:linear-gradient(to bottom,#3a4b60,#1a2533);
+	height:450px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	color:white;
+	padding:0 20px;
+}
+.hero-content h1{
+	font-size: 30px;
+	margin-bottom:15px;
+}
+.hero-content p{
+	font-size:16px;
+	max-width:400px;
+	margin:0 auto;
+	line-height:1.6;
+	opacity:0.8;
+}
+.scroll-icon{
+	margin-top:30px;
+	font-size:20ps;
+}
+.first{
+	background-color:#2c5282;
+	color:white;
+	display:flex;
+	justify-content:space-arround;
+	padding:40px 50px ;
+}
+.stat-title{
+	display:flex;
+	gap:10px;
+	max-width:300px;
+}
+.stat-title h2{
+	font-size:30px;
+	margin:10px;
+	border-right:1px solid white;
+	padding-right:30px;
+}
+.item{
+	border-right:1px solid white;
+}
+.item h3{
+	font-size:25px;
+	display:block;
+	margin:0;
+	color:gray;
+	
+	
+}
+.item p{
+		font-weight:normal;
+		font-size:20px;
+		opacity:0.8;
+		margin-top:5px;
+		line-height:1.4;		
+}
+
+.button button{
+	background-color:darkblue;
+	color:gray;
+	margin:10px;
+	padding:5px;
+	border-radius:10px;
+	text-align:center;
+	}
+	.button{
+text-align:center;}
+
+	
+		
+
+	
