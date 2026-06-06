@@ -1,0 +1,61 @@
+h1{
+	text-align:center;
+	color:white;
+	background-image:url('practice1-3.jpg');
+	background-size:cover;
+	padding:20px;
+	border-radius:10px;
+}
+ul{
+	list-style-type:none;
+	padding:15px;
+	margin:10px;
+	display:flex;
+	background-color:white;
+	border-radius:5px;
+	
+}
+li{
+	margin-right:325px;
+	border-radius:20px
+}
+li a:hover{
+	color:pink;
+	display:block;
+	padding:10px;
+	background-color:purple;
+	border-radius:5px;
+}
+a{
+text-decoration:none;
+color:purple;
+
+}
+	
+
+	
+
+body{ 
+	text-align:center;
+	background-color:pink;
+	color:purple;
+	padding:30px;
+}
+	:
+h2{color:white;
+}
+button{
+	background-color:red;
+	color:pink;
+	padding:15px;
+	cursor:pointer;
+	transition:0.3s;
+	border-radius:10px;
+}
+footer{
+	background-color:gray;
+	color:white;
+	padding:10px;
+	margin:10px;
+}
+	
