@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="login.css">
+<h1>Personal Information</h1>
+</head>
+<body>
+<form id="loginForm">
+    <label>Name : </label>
+    <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+    
+    <label>E MAIL : </label>
+    <input type="email" id="email" placeholder="Enter your Mail" required><br><br>
+    
+    <div class="login">
+        <button type="submit" class="submit" onclick="showLoginMessage(event)">Login</button>
+    </div>
+</form>
+
+<div id="resultDisplay" style="margin-top: 20px; font-weight: bold;"></div>
+<script src="login.js"> </script>
+</body>
+</html>
